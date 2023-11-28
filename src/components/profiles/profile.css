@@ -1,0 +1,30 @@
+.profile-body{
+    /* display: flex; */
+    margin-top: 4rem;
+}
+
+.pr-content{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.pr-row{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pr-box{
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+}
+
+
+.pr-heading{
+    /* margin-left: 3rem; */
+    color: rgba(152, 242, 79, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}

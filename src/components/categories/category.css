@@ -1,0 +1,18 @@
+.cat-body{
+    margin: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-heading{
+    color: rgba(255, 222, 0, 1); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.cat-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

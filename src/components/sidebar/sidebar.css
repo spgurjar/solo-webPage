@@ -1,0 +1,22 @@
+.sb-body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(25, 27, 35, 1);
+    color: rgb(132, 133, 139)
+}
+
+.upperSB{
+    margin: 1rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 8rem;
+}
+
+.lowerSB{
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-top: 8rem ;
+}
