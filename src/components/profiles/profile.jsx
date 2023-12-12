@@ -35,3 +35,4 @@ export const Profile = () => {
         </div>
     )
 }
+
