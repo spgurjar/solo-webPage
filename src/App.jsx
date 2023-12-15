@@ -6,6 +6,7 @@ import { Footer } from './components/footer/footer';
 import { SignIn } from './components/signIn/signIn';
 import { UserType } from './components/userType/userType';
 import { BrandCreds } from './components/brandsCreds/brandsCreds';
+import { CreatorProfile } from './components/creatorProfile/creatorProfile';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/signUp" element={<UserType />} />
         <Route path="/brandCreds" element={<BrandCreds />} />
+        <Route path="/creatorProfile" element={<CreatorProfile />} />
       </Routes>
      </Router>
   );

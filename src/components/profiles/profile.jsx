@@ -1,5 +1,6 @@
 import "./profile.css";
 import { Prbox } from "./profileBox";
+import { Link } from "react-router-dom";
 
 import mainpic from "../media/mainpic.png";
 import pic2 from "../media/pic2.png";
@@ -17,7 +18,7 @@ export const Profile = () => {
            <div> <span className="pr-heading">Today best Profiles</span></div>
            <div className="pr-content">
                <div className="pr-row">
-                   <div className="pr-box"> <Prbox mainpic = {mainpic} prpic = {prpic} userid="@brasel9" username = "Brady shelly" location = "India" lIcon = {<CiLocationOn />} fqntt = "32.2k" eqntt= "6.64%" /></div>
+                   <Link to="/creatorProfile" ><div className="pr-box"> <Prbox mainpic = {mainpic} prpic = {prpic} userid="@brasel9" username = "Brady shelly" location = "India" lIcon = {<CiLocationOn />} fqntt = "32.2k" eqntt= "6.64%" /></div></Link>
 
                    <div className="pr-box"> <Prbox mainpic = {pic2} prpic = {prpic} userid="@brasel9" username = "Brady shelly" location = "India" lIcon = {<CiLocationOn />} fqntt = "32.2k" eqntt= "6.64%" /></div>
 
